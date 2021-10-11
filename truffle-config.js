@@ -25,6 +25,7 @@
 
 const mnemonic = "sting typical maximum swing riot spatial recycle develop actor snack enrich word";
 const HDWalletProvider = require("@truffle/hdwallet-provider");
+const InfuraApi = "https://rinkeby.infura.io/v3/a498647bafba4abcb08374f66bd332c0";
 module.exports = {
     /**
     * Networks define how you connect to your ethereum client and let you set the
@@ -75,7 +76,7 @@ module.exports = {
     // }
         rinkeby: {
             provider: function() {
-                return new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/a498647bafba4abcb08374f66bd332c0");
+                return new HDWalletProvider(mnemonic, InfuraApi);
             },
             network_id: 4
         },
