@@ -1,0 +1,24 @@
+{
+  "name": "erc20token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "@openzeppelin/contracts-upgradeable": "^4.3.2",
+    "@openzeppelin/truffle-upgrades": "^1.9.1",
+    "defender-relay-client": "^1.11.1"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.0"
+  }
+}
