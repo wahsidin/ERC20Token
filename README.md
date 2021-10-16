@@ -37,7 +37,7 @@ const InfuraApi = ""; // get the infura api https://infura.io/
 
 
 ## Migrate ( Deploy ) ERC20 Token Smart Contract into Rinkeby - Ethereum Test Network 
-`truffle migrate --skip-dry-run --f 2 --to 2 --network rinkeby
+`truffle migrate --skip-dry-run --f 2 --to 2 --network rinkeby`
 
 
 
