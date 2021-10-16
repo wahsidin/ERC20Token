@@ -13,10 +13,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@nomiclabs/hardhat-web3": "^2.0.0",
     "@openzeppelin/contracts": "^4.3.2",
     "@openzeppelin/contracts-upgradeable": "^4.3.2",
+    "@openzeppelin/test-helpers": "^0.5.15",
     "@openzeppelin/truffle-upgrades": "^1.9.1",
-    "defender-relay-client": "^1.11.1"
+    "chai": "^4.3.4",
+    "defender-relay-client": "^1.11.1",
+    "web3": "^1.6.0"
   },
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.5.0"
