@@ -45,7 +45,7 @@ const InfuraApi = ""; // get the infura api https://infura.io/
 https://www.trufflesuite.com/docs/truffle/testing/testing-your-contracts
 
 ###### Compiling Contract 
-truffle compile 
+`truffle compile` 
 
 ###### Run Truffle Test
-truffle test test/ERC20Token.test.js test/ERC20Token.test2.js --network ganache --compile-none
+`truffle test test/ERC20Token.test.js test/ERC20Token.test2.js --network ganache --compile-none`
