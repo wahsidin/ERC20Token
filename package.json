@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,12 @@
     "@openzeppelin/truffle-upgrades": "^1.9.1",
     "chai": "^4.3.4",
     "defender-relay-client": "^1.11.1",
+    "next": "^11.1.2",
+    "next-routes-extended": "^1.6.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.4",
     "web3": "^1.6.0"
   },
   "dependencies": {
