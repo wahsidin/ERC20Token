@@ -1,0 +1,50 @@
+/*
+   1. Transfer page 
+
+*/
+
+/*==============================
+   1. Transfer page
+==============================*/
+#transferPageWrapper #account-info{
+   text-align: center;
+   padding: 10px 0;
+}
+#transferPageWrapper #account-info h3{
+   color: blue;
+   font-size: 25px;
+}
+#transferPageWrapper #account-info h4{
+   color: black;
+   font-style: italic;
+   font-size: 25px;
+}
+#txDetailsWrapper{
+   padding: 30px;
+   border: 2px solid orangered;
+   border-radius: 5px;
+   margin-top: 20px;
+}
+#transactionSuccessMessage{
+   font-size: 22px;
+   margin-bottom: 20px;
+}
+#transactionSuccessMessage .amount{
+   font-weight:bold; 
+   font-style:italic;
+   color: orangered;
+}
+#transactionDetailsLink{
+   font-size:22px; 
+   margin-top:20px; 
+   display:block;
+   color: black;
+}
+#transactionDetailsLink #transactionHash{
+   font-style:italic;
+   color: orangered;
+   text-decoration: underline;
+}
+
+
+
