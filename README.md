@@ -49,3 +49,15 @@ https://www.trufflesuite.com/docs/truffle/testing/testing-your-contracts
 
 ###### Run Truffle Test
 `truffle test test/ERC20Token.test.js test/ERC20Token.test2.js --network ganache --compile-none`
+
+
+
+## Start Nextjs Development server 
+`npm run dev`
+
+
+## Test Transfer Token to other Wallet Account 
+=> http://localhost/3000/
+=> click on transfer menu 	
+or 
+visit http://localhost/3000/token/transfer 
