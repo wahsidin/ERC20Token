@@ -1,4 +1,4 @@
-# ERC20Token
+# ERC20Token Dapps
 ERC20 Token build with Solidity, Truffle, and OpenZeppelin
 
 
