@@ -57,7 +57,4 @@ https://www.trufflesuite.com/docs/truffle/testing/testing-your-contracts
 
 
 ## Test Transfer Token to other Wallet Account 
-=> http://localhost/3000/
-=> click on transfer menu 	
-or 
-visit http://localhost/3000/token/transfer 
+http://localhost/3000/ -> click on transfer menu 
