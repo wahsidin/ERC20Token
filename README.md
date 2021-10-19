@@ -58,3 +58,7 @@ https://www.trufflesuite.com/docs/truffle/testing/testing-your-contracts
 
 ## Test Transfer Token to other Wallet Account 
 http://localhost/3000/ -> click on transfer menu 
+
+
+## Global CSS File for custom design  
+/styles/global.css
