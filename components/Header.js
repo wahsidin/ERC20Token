@@ -14,7 +14,10 @@ export default () =>{
 				<Link route="/token/transfer">
 					<a className="item">Transfer</a>
 				</Link>
-				<Link route="/token/transferFrom">
+				<Link route="/token/transferFrom/approve">
+					<a className="item">Approve</a>
+				</Link>
+				<Link route="/token/transferFrom/transfer">
 					<a className="item">Transfer From</a>
 				</Link>
 			</Menu.Menu>

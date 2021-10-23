@@ -11,7 +11,6 @@ class TokenTransfer extends React.Component {
 		recepientAccountAddress: '',
 		amount: '',
 		errorMessage: '',
-		successMessage: '',
 		loading: false
 	};
 
@@ -87,7 +86,7 @@ class TokenTransfer extends React.Component {
 				*/
 				var wrapperOpen = '<div id="txDetailsWrapper">';
 				var paragraph = '<p id="transactionSuccessMessage" style="">Transfer <span class="amount">'+amount+'</span> Token to Address : <span class="amount">'+recepientAccountAddress+'</span> Success</p>';
-				var aTag = 	'<a style="" id="transactionDetailsLink" href="https://rinkeby.etherscan.io/tx/'+TransactionHash+'">';
+				var aTag = 	'<a target="_blank" style="" id="transactionDetailsLink" href="https://rinkeby.etherscan.io/tx/'+TransactionHash+'">';
 					aTag += 'Transaction Details : <span id="transactionHash">'+TransactionHash+'</span></a>'; 
 				var wrapperClose = '</div>';
 				document.getElementById("transferDetails").innerHTML = wrapperOpen + paragraph + aTag + wrapperClose; 

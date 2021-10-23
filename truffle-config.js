@@ -23,9 +23,9 @@
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
-const mnemonic = "sting typical maximum swing riot spatial recycle develop actor snack enrich word";
+const mnemonic = "";
 const HDWalletProvider = require("@truffle/hdwallet-provider");
-const InfuraApi = "https://rinkeby.infura.io/v3/eb6bd387faaa49dda9e7465b09607636";
+const InfuraApi = "";
 module.exports = {
     /**
     * Networks define how you connect to your ethereum client and let you set the

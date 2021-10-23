@@ -7,6 +7,6 @@ import ERC20Token from '../build/contracts/ERC20Token.json';
 export default() => {
     return new web3.eth.Contract(
         ERC20Token.abi,
-        "0x80b3c9686d03b0516E40DC430814C17dF3e5BC63"
+        "0xA56F8aAA405E9B3762E109E63B3E58c4bB6B769c"
     );
 };

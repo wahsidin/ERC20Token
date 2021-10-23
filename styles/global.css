@@ -1,10 +1,15 @@
 /*
-   1. Transfer page 
+   1. /token/transfer
+   2. /token/transferFrom/transfer
 
 */
 
+#transferPageWrapper{
+   padding-bottom: 50px;
+}
+
 /*==============================
-   1. Transfer page
+   1. /token/transfer
 ==============================*/
 #transferPageWrapper #account-info{
    text-align: center;
@@ -47,4 +52,16 @@
 }
 
 
-
+/*==============================
+   2. /token/transferFrom/transfer
+==============================*/
+#allowanceMessage p{
+   border: 1px solid orange;
+   display: block;
+   padding: 20px;
+   margin: 10px 0 50px;
+   font-size: 24px;
+}
+#tranferFromh3{
+   margin-top: 75px;
+}

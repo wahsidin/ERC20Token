@@ -17,11 +17,11 @@ const HDWalletProvider = require("@truffle/hdwallet-provider");
 /*
 	1.	METAMASK MNEMONIC
 */
-const mnemonic = "sting typical maximum swing riot spatial recycle develop actor snack enrich word";
+const mnemonic = "";
 /*
 	2.	DEFINE PROVIDER
 */
-const rinkebyNetwork = 'https://rinkeby.infura.io/v3/eb6bd387faaa49dda9e7465b09607636';
+const rinkebyNetwork = "";
 const provider = new HDWalletProvider( mnemonic, rinkebyNetwork );
 const web3 = new Web3( provider );
 
