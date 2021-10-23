@@ -41,12 +41,9 @@ const InfuraApi = ""; // get the infura api https://infura.io/
 
 ## Adding Configuration on ethereum/web3.js
 ```
-const mnemonic = "";
-const InfuraApi = ""; // get the infura api https://infura.io/
+const mnemonic = ""; // get mnemonic on from your Metamask Ethereum Wallet or other wallets
+const rinkebyNetwork = ''; // get the infura api https://infura.io/
 ```
-
-
-
 
 
 ## Automation Testing Contract using Truffle Test
@@ -59,7 +56,6 @@ https://www.trufflesuite.com/docs/truffle/testing/testing-your-contracts
 `truffle test test/ERC20Token.test.js test/ERC20Token.test2.js --network ganache --compile-none`
 
 
-
 ## Start Nextjs Development server 
 `npm run dev`
 
@@ -68,5 +64,17 @@ https://www.trufflesuite.com/docs/truffle/testing/testing-your-contracts
 http://localhost/3000/ -> click on transfer menu 
 
 
-## Global CSS File for custom design  
-/styles/global.css
+## Test Approve Token to other Wallet Account
+http://localhost/3000/ -> click on approve menu 
+
+
+## Test Approve Token to other Wallet Account
+http://localhost/3000/ -> click on approve menu 
+
+
+## Test Transfer Token After Approve   
+http://localhost/3000/ -> click on transferFrom menu 
+
+
+## Learn Ethereum, Solidity, Food Supply Chain & Cryptocurrency, The Complete Guide for Developer Course
+https://www.udemy.com/course/ethereum-and-solidity-the-complete-guide-for-developer/ 
