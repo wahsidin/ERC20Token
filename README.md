@@ -68,10 +68,6 @@ http://localhost/3000/ -> click on transfer menu
 http://localhost/3000/ -> click on approve menu 
 
 
-## Test Approve Token to other Wallet Account
-http://localhost/3000/ -> click on approve menu 
-
-
 ## Test Transfer Token After Approve   
 http://localhost/3000/ -> click on transferFrom menu 
 
