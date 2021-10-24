@@ -1,4 +1,5 @@
 /*
+   1. /
    1. /token/transfer
    2. /token/transferFrom/transfer
 
@@ -7,6 +8,21 @@
 #transferPageWrapper{
    padding-bottom: 50px;
 }
+
+/*==============================
+   1. /
+==============================*/
+#home-wrapper{
+   margin: 30px;
+}
+#home-wrapper p{
+   font-size: 20px;
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+
+
 
 /*==============================
    1. /token/transfer
